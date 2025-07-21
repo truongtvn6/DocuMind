@@ -46,6 +46,11 @@ const Index = () => {
       step: "03",
       title: "Get Results",
       description: "View summaries, key terms, and risks instantly"
+    },
+    {
+      step: "04",
+      title: "Ask Questions",
+      description: "Ask questions about your document and get instant answers"
     }
   ];
 
