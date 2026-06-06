@@ -257,7 +257,7 @@ func ContractChatHandler(c *gin.Context) {
 	}
 
 	if utf8.RuneCountInString(req.Question) == 0 || utf8.RuneCountInString(req.Question) > 300 {
-		c.JSON(http.StatusBadRequest, gin.H{"error": "Câu hỏi phải từ 1 đến 300 ký tự."})
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Câu hỏi phải từ 1 đến 200 ký tự."})
 		return
 	}
 
